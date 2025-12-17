@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #78c6f7 0%,   /* sky blue */
+        #8aa8f0 30%,  /* light blue-purple mix */
+        #b69be8 55%,  /* lavender mix */
+        #e9a4d8 75%,  /* light pink mix */
+        #f7bcd5 100%  /* soft pink */
+    );
+}
+
+header{
+    width: 100%;
+    height: ;
+    background: #2bff6d;
+    margin: px;
+    padding:px;
+    margin-right: 7px;
+}
+
+section{
+    width: 100%;
+    height: ;
+    background: #linear-gradient(
+        to bottom,
+        #ee6aff 45%,
+        #f4aaff 88%,
+        #afff6a 44
+        );
+    margin: 7px;
+    padding:5px;
+    margin-right: 7px;
+    font-size: 25px;
+}
+
+footer{
+    width: 100%;
+    height: ;
+    background: #8098ff;
+    margin: 7px;
+    padding:5px;
+    margin-right: 7px;
+}
+
+/* CSS */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo বামে, nav ডানে */
+  padding: 12px 20px;
+  background: linear-gradient(
+        to bottom,
+        #a400ff 12%,
+        #ff0a00 33%,
+        #88ccc4a0 99%
+        );
+}
+
+.main-nav {
+  display: flex;
+  gap: 16px;
+  /* nav আইটেম ডানেই থাকবে কারণ justify-content: space-between দিলাম */
+}
+
+.main-nav a {
+  text-decoration: none;
+  padding: 6px 8px;
+  border-radius: 4px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TRY</title>
+    <link rel="stylesheet" href="try.css">
+</head>
+<body>
+    <header class="site-header">
+      <div class="logo">MySite</div>
+      <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+    <Section>
+        <p id="text">Hello</p>
+<button id="btn">Change</button>
+<button id="btn2">Back </button>
+    </Section>
+    <footer>
+        <h1>Text to Speech</h1>
+    <textarea id="text" rows="4" cols="50" placeholder="এখানে টেক্সট লিখুন..."></textarea>
+    <br>
+    <button onclick="speak()">বলুন</button>
+    
+    
+
+    <script>
+        function speak() {
+            var text = document.getElementById('text').value;
+            var utterance = new SpeechSynthesisUtterance(text);
+            window.speechSynthesis.speak(utterance);
+        }
+    </script>
+    </footer>
+</body>
+<script src="try.js"></script>
+</html>
